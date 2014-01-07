@@ -66,7 +66,7 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Helvetica, Arial, serif; 
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
@@ -89,15 +89,20 @@ header h2 {
   letter-spacing: 0;
 }
 
-.inner {
+.description {
   position: relative;
   width: 940px;
   margin: 0 auto;
+  float:right;
 }
 
+.logo img{
+ width:200px;
+}
 #content-wrapper {
   border-top: solid 1px #fff;
   padding-top: 30px;
+  font-size:large;
 }
 
 #main-content {
@@ -136,7 +141,7 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Helvetica, Arial, serif; 
 }
 a.button small {
   display: block;
